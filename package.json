@@ -1,0 +1,40 @@
+{
+    "name": "odin-project-to-do-list",
+    "version": "1.0.0",
+    "description": "To-Do list project from odin project curriculum",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint . --fix --max-warnings=0",
+        "format": "prettier . --write",
+        "watch": "webpack --watch",
+        "build": "webpack",
+        "dev": "webpack serve"
+    },
+    "keywords": [
+        "to-do list",
+        "odin project"
+    ],
+    "author": "Lalaine Hines",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github/com/LalaineHines/To-Do-List"
+    },
+    "bugs": {
+        "url": "http://github.com/LalaineHines"
+    },
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "eslint": "^8.43.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-config-prettier": "10.1.8",
+        "prettier": "3.6.2",
+        "style-loader": "4.0.0",
+        "webpack": "5.101.0",
+        "webpack-cli": "6.0.1",
+        "webpack-dev-server": "5.2.2"
+    },
+    "dependencies": {
+        "date-fns": "4.1.0"
+    }
+}
